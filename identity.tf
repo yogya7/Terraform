@@ -19,8 +19,8 @@ provider "okta" {
 }
 
 resource "okta_user_schema_property" "dob_extension" {
-  index  = "date_of_birth"
-  title  = "Date of Birth"
+  index  = "date_of_joining"
+  title  = "Date of Joining"
   type   = "string"
   master = "PROFILE_MASTER"
 }
